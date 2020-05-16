@@ -9,7 +9,13 @@
 import SwiftUI
 
 struct MainTabView: View {
-    var homeView = HomeView()
+    
+    // MARK - Properties
+    
+    
+    // MARK: - UI
+    
+    var homeView = HomeView(HomeViewModel())
     var writeView = WriteView()
     
     var body: some View {
